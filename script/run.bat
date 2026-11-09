@@ -2,7 +2,7 @@
 rem Starts PDF Merger without a console window. Run build.bat first.
 setlocal
 
-set "JAR=C:\Users\szyma\IdeaProjects\pdf-merger\target\pdf-merger-1.0-SNAPSHOT.jar"
+set "JAR=%~dp0..\target\pdf-merger-1.0-SNAPSHOT.jar"
 if not exist "%JAR%" (
     echo %JAR% not found. Run build.bat first.
     pause
