@@ -1,10 +1,10 @@
 package com.szymaniaq.pdf;
 
-import com.szymaniaq.pdf.ui.MergerWindow;
+import com.szymaniaq.pdf.ui.PdfUtilsWindow;
 
 import javax.swing.*;
 
-public class MergerApp {
+public class PdfUtilsApp {
 
     static void main() {
         SwingUtilities.invokeLater(() -> {
@@ -13,7 +13,7 @@ public class MergerApp {
             } catch (Exception ignored) {
                 // fall back to the default look and feel
             }
-            new MergerWindow().show();
+            new PdfUtilsWindow().show();
         });
     }
 }
